@@ -3,50 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpalineTrade - Your Marketplace for Everything!</title>
-    
+    <title>Opaline Trade</title>
     <style>
-        /* Basic Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            color: navy;
+            background-color: #fff;
+            color: #333;
         }
-
-        header, footer {
-            background-color: rgb(17, 57, 117);
-            color: white; /* Changed from black to white for readability */
-            padding: 10px 0;
+        .header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
         }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
-
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
+        .header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
         }
-
-        nav ul li a {
-            color: rgb(255, 153, 0);
+        .nav-bar {
+            background-color: #ff6600;
+            overflow: hidden;
+        }
+        .nav-bar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
+            font-size: 1em;
         }
-
-        section {
+        .nav-bar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
             padding: 20px;
         }
-
-        #hero {
-            background-color: rgb(255, 255, 255);
+        .container h2 {
+            font-size: 2em;
+            margin: 0 0 10px;
         }
-
-        /* Add more styles as needed */
+        .container p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
-    <!-- Body content remains the same -->
+    <div class="header">
+        <h1>Opaline Trade</h1>
+        <p>Seamless Elegance Delivered</p>
+    </div>
+    <div class="nav-bar">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="container">
+        <h2>Welcome to Opaline Trade</h2>
+        <p>We're here to serve your most diverse needs.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 Opaline Trade</p>
+    </div>
 </body>
 </html>
