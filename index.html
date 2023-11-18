@@ -9,23 +9,37 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff;
+            background-color: #ffffff;
             color: #333;
         }
         .header {
-            background-color: #003366;
-            color: white;
+            background-color: #e4ebf1;
+            color: #535353;
             text-align: center;
             padding: 40px 0;
         }
         .header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 3.9em;
         }
         .header p {
             margin: 10px 0 0;
             font-size: 1.2em;
         }
+        .header {
+    position: relative; /* Add this to your .header class */
+    /* ... other styles ... */
+}
+
+.logo {
+    max-width: 0px; /* Adjust as needed */
+    height: auto;
+    position: absolute; /* Position the logo absolutely */
+    top: auto; /* Center vertically */
+    left: auto; /* Center horizontally */
+    transform: translate(0%, -35%); /* Adjust the position to truly center */
+}
+
         .nav-bar {
             background-color: #ff6600;
             overflow: hidden;
@@ -44,31 +58,57 @@
             color: black;
         }
         .container {
-            padding: 20px;
+            padding: 10px;
         }
         .container h2 {
-            font-size: 2em;
-            margin: 0 0 10px;
+            font-size: 3em;
+            margin: auto{1,0]}; 
+            text-align: center;
         }
         .container p {
-            font-size: 1em;
-            line-height: 1.6;
+            font-size: 1.05em;
+            line-height: 0.2;
+            text-align: center;
         }
         .footer {
             background-color: #003366;
-            color: white;
+            color: rgb(255, 255, 255);
             text-align: center;
             padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
         }
+        .logo {
+            max-width: 340px; /* Adjust the size as needed */
+            height: auto;
+            display: block;
+            margin: 0 auto 5px; /* Centers the logo and adds space below */
+            
+        }
+        .logo-container {
+    position: relative;
+    height: 200px; /* Adjust as necessary */
+    width: 100%; /* Adjust as necessary */
+}
+
+.logo2 {
+    position: absolute;
+    max-width: 340px; /* Adjust as necessary */
+    height: auto;
+    top: 50%; /* Adjust for vertical positioning */
+    left: 50%; /* Adjust for horizontal positioning */
+    transform: translate(-50%, -50%); /* Centers the logo */
+}
+
     </style>
 </head>
 <body>
+    <div
     <div class="header">
-        <h1>Opaline Trade</h1>
-        <p>Seamless Elegance Delivered</p>
+        <img src="https://github.com/AZMinsights/oplogos/blob/main/1.png?raw=true" alt="Opaline Trade Logo1" class="logo">
+        <h1>____________________________________________________________________________</h1>
+        <p></p>
     </div>
     <div class="nav-bar">
         <a href="#">Home</a>
@@ -77,11 +117,30 @@
         <a href="#">Contact</a>
     </div>
     <div class="container">
-        <h2>Welcome to Opaline Trade</h2>
-        <p>We're here to serve your most diverse needs.</p>
+        <h2>Welcome to Opaline Trade!</h2>
+        <p>We're here to serve your most diverse needs <a href="https://www.ebay.com/str/opalinetrade" target="_blank">Visit our eBay Store - Opaline Trade</a>
+            .</p>
     </div>
     <div class="footer">
         <p>&copy; 2023 Opaline Trade</p>
     </div>
 </body>
 </html>
+<div class="logo-container">
+    <img src="https://github.com/AZMinsights/oplogos/blob/main/OPALINE%20TRADE%20(8).png?raw=true" alt="Opaline Trade Logo2" class="logo2">
+</div>
+
+<div class="container">
+    <!-- Other container content -->
+</div>
+<style>
+    .logo2 {
+    position: absolute;
+    max-width: 940px; /* Adjust as necessary */
+    height: auto;
+    top: -160%; /* Adjust this value to move up or down */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+div
