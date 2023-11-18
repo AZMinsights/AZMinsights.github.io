@@ -86,17 +86,3 @@
     </div>
 </body>
 </html>
-.logo-container {
-    position: relative;
-    height: 200px; /* Adjust as necessary */
-    width: 100%; /* Adjust as necessary */
-}
-
-.logo2 {
-    position: absolute;
-    max-width: 940px; /* Adjust as necessary */
-    height: auto;
-    top: 50%; /* Adjust for vertical positioning */
-    left: 50%; /* Adjust for horizontal positioning */
-    transform: translate(-50%, -50%); /* Centers the logo */
-}
