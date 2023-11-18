@@ -15,7 +15,7 @@
         }
 
         header, footer {
-            background-color: navy;
+            background-color: rgb(65, 121, 185);
             color: white; /* Changed from black to white for readability */
             padding: 10px 0;
         }
@@ -40,7 +40,7 @@
         }
 
         #hero {
-            background-color: orange;
+            background-color: rgb(255, 166, 0);
         }
 
         /* Add more styles as needed */
