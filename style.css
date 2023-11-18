@@ -1,24 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpalineTrade - Your Marketplace for Everything!</title>
+    
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: navy;
+        }
 
-/* Basic Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: navy;
-}
+        header, footer {
+            background-color: navy;
+            color: white; /* Changed from black to white for readability */
+            padding: 10px 0;
+        }
 
-header, footer {
-    background-color: navy;
-    color: black;
-    padding: 10px 0;
-}
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
 
-section {
-    padding: 20px;
-}
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
 
-#hero {
-    background-color: orange;
-}
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
 
-/* Add more styles as needed */
+        section {
+            padding: 20px;
+        }
+
+        #hero {
+            background-color: orange;
+        }
+
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+    <!-- Body content remains the same -->
+</body>
+</html>
