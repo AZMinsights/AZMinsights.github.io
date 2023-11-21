@@ -14,3 +14,18 @@
     background-color: #007BFF; /* Change on hover */
     color: white;
 }
+.item-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #DAA520; /* Gold color, you can change it */
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #F4F4F4; /* Light grey background, change as needed */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.item-link:hover {
+    background-color: #DAA520; /* Change on hover */
+    color: white;
+}
